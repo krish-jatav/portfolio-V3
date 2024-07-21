@@ -1,5 +1,4 @@
 "use client"
-import LocomotiveScroll from "locomotive-scroll";
 import SelectedWork from "./SelectedWork/page";
 import HomePage from "./home/page";
 import HomeAbout from "./homeAbout";
@@ -7,9 +6,25 @@ import Noise from "./grainEff";
 import Skills from "./skills";
 import Marquee from "./morque";
 import Footer from "./footer";
+import Lenis from '@studio-freight/lenis'
+import { useEffect } from "react";
+
 
 export default function Home() {
-  const locomotiveScroll = new LocomotiveScroll();
+  useEffect(() => {
+
+    const lenis = new Lenis()
+
+lenis.on('scroll', (e) => {
+  console.log(e)
+})
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+requestAnimationFrame(raf)
+  }, []);
 
   return (
     <div>
