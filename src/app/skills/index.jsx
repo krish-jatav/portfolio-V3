@@ -9,10 +9,10 @@ return(
             <h1 className="text-4xl lg:text-[10rem] lg:ml-[13rem] lg:mt-40">&{" "}FREELANCE</h1>
         </div>
         <div className="lg:flex">
-            <div className="text-slate-50 lg:w-[50vw] ">
+            <div className=" lg:w-[50vw] ">
                 <div className="  lg:w-[40vw] mt-20 ml-10">
-                <h1 className=" lg:text-7xl text-4xl py-5 px-10  ">SKILLS</h1>
-                <p className=" font-thin">I can help if you have a digital product you want to design, or already have one, and want to make it look better, more interactive, and easier to use.</p>
+                <h1 className=" lg:text-7xl text-4xl py-5   ">SKILLS</h1>
+                <p className=" font-thin pr-10">I can help if you have a digital product you want to design, or already have one, and want to make it look better, more interactive, and easier to use.</p>
                 </div>
             </div>
             <div className="border-l-2 border-b-2 ">
@@ -31,7 +31,7 @@ return(
             <div className="text-slate-50 lg:w-[50vw] ">
                 <div className="  lg:w-[40vw] mt-20 ml-10">
                 <h1 className=" lg:text-7xl text-4xl py-5  ">TOOLS</h1>
-                <p className=" font-thin">I then bring your online vision to life with coding or CMS, depending on your needs. </p>
+                <p className=" pr-10 font-thin">I then bring your online vision to life with coding or CMS, depending on your needs. </p>
                 </div>
             </div>
             <div className="lg:border-l-2  ">
