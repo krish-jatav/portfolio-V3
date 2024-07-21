@@ -1,8 +1,6 @@
 import "./globals.css";
 import { Inter  } from "next/font/google";
 import Header from "../components/header";
-import Noise from "./grainEff";
-// import CustomCursor from "@/components/cursor";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -16,7 +14,6 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Header />
         {children}
-        {/* <CustomCursor></CustomCursor> */}
       </body>
     </html>
   );

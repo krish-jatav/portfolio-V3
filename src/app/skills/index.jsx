@@ -1,4 +1,4 @@
-
+"use client"
 export default function Skills(){
     const skillsItem = ["WEBSITE DESIGN", "WEBSITE DEVELOPMENT", "REDESIGN", "E-COMMERCE", ];
     const toolsItem = ["HTML", "CSS", "TAILWIND CSS", "BOOTSTRAP", "JAVASCRIPT","REACT.JS" , "NEXT.JS","NODE.JS", "EXPRESS.JS" ,"GITHUB"];

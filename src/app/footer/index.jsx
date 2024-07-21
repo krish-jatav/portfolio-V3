@@ -1,4 +1,4 @@
-import Link from "next/link";
+"use client"
 import { FooterItem } from "../../../constant";
 
 export default function Footer() {
