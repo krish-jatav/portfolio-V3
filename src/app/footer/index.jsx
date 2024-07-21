@@ -1,0 +1,29 @@
+import Link from "next/link";
+import { FooterItem } from "../../../constant";
+
+export default function Footer() {
+    return (
+      <div data-scroll data-scroll-section  className=" bg-[#cdcdc9] rounded-t-[2rem]  text-[#1c1c1c] ">
+        <div className="mt-10 px-12">
+          <div className="py-5 border-b-2 ">
+            <h1 className="text-2xl">About</h1>
+          </div>
+          <div className="pt-10">
+            <h1 className="text-xl lg:text-4xl pb-10  lg:w-[50vw] ">
+            Let's work together
+            </h1>
+            <img src="https://www.huyng.xyz/_next/static/media/contact.269b257e.svg" alt="footer"/>
+          </div>
+          <div className="flex py-20 justify-between text-lg">
+
+                        {FooterItem.map((footer, index) => (
+                        <div key={index} className="py-3">
+                           {footer.item}
+                        </div>
+                    ))}
+
+          </div>
+        </div>
+      </div>
+    );
+  }

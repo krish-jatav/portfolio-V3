@@ -1,54 +1,55 @@
-.header{
+.header {
     padding: 30px;
     position: fixed;
     right: 0;
-    z-index: 1;
-
-    .button{
+    z-index: 9999;
+    top: 0;
+    .button {
         width: 80px;
         height: 80px;
         border-radius: 50%;
-        background-color: #455CE9;
+        background-color: #000000;
         cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;
+        // border: 1px solid rgb(186, 186, 20);
     }
-
-    .burger{
+    .burger {
         width: 100%;
-        &::after, &::before{
+        &::after,
+        &::before {
             content: "";
             display: block;
-            height: 1px;
-            width: 40%;
+            height: 2px;
+            width: 50%;
             margin: auto;
-            background-color: white;
+            background-color: rgb(241, 241, 241);
             position: relative;
             transition: transform 0.3s;
+            mix-blend-mode: difference;
         }
-
-        &::after{
-            top: -5px;
+        &::after {
+            top: -10px;
         }
-
-        &::before{
+        &::before {
             top: 5px;
         }
     }
-
-    .burgerActive{
-
-        &::after{
+    .burgerActive {
+        &::after {
             transform: rotate(45deg);
             top: -1px;
         }
-
-        &::before{
+        &::before {
             transform: rotate(-45deg);
             top: 0px;
         }
-        
     }
 }
 
+.cursor {
+    height: 10px;
+    width: 10px;
+    background: #a00606;
+}
