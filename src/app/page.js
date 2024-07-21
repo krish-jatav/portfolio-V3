@@ -1,5 +1,5 @@
 "use client"
-// import LocomotiveScroll from "locomotive-scroll";
+import LocomotiveScroll from "locomotive-scroll";
 import SelectedWork from "./SelectedWork/page";
 import HomePage from "./home/page";
 import HomeAbout from "./homeAbout";
@@ -9,7 +9,7 @@ import Marquee from "./morque";
 import Footer from "./footer";
 
 export default function Home() {
-  // const locomotiveScroll = new LocomotiveScroll();
+  const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <div>
@@ -19,10 +19,6 @@ export default function Home() {
       <Marquee></Marquee>
       <Skills></Skills>
       <Footer></Footer>
-
-
-
-
     </div>
   );
 }
