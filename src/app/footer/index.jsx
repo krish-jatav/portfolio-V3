@@ -8,13 +8,13 @@ export default function Footer() {
           <div className="py-5 border-b-2 ">
             <h1 className="text-2xl">About</h1>
           </div>
-          <div className="pt-10">
+          <div className="pt-1">
             <h1 className="text-xl lg:text-4xl pb-10  lg:w-[50vw] ">
             Let's work together
             </h1>
             <img src="https://www.huyng.xyz/_next/static/media/contact.269b257e.svg" alt="footer"/>
           </div>
-          <div className="flex py-20 justify-between text-lg">
+          <div className=" lg:flex flex-col py-20 justify-between text-sm ">
 
                         {FooterItem.map((footer, index) => (
                         <div key={index} className="py-3">

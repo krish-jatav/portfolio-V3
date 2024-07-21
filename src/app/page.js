@@ -1,5 +1,4 @@
-"use client";
-
+"use client"
 import LocomotiveScroll from "locomotive-scroll";
 import SelectedWork from "./SelectedWork/page";
 import HomePage from "./home/page";
