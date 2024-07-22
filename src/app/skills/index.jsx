@@ -1,10 +1,11 @@
 "use client"
+import { skillsPara } from "../../../constant";
 export default function Skills(){
     const skillsItem = ["WEBSITE DESIGN", "WEBSITE DEVELOPMENT", "REDESIGN", "E-COMMERCE", ];
     const toolsItem = ["HTML", "CSS", "TAILWIND CSS", "BOOTSTRAP", "JAVASCRIPT","REACT.JS" , "NEXT.JS","NODE.JS", "EXPRESS.JS" ,"GITHUB"];
 return(
-    <div>
-        <div className="lg:mt-4 lg:p-28 p-10 ">
+    <div className="bg-[#131311] text-[#CECEC4] rounded-t-[2rem]">
+        <div className="lg:mt-4 lg:p-28 p-10  ">
             <h1 className=" text-4xl lg:text-[10rem]">SKILLS</h1>
             <h1 className="text-4xl lg:text-[10rem] lg:ml-[13rem] lg:mt-40">&{" "}FREELANCE</h1>
         </div>
@@ -12,7 +13,7 @@ return(
             <div className=" lg:w-[50vw] ">
                 <div className="  lg:w-[40vw] mt-20 ml-10">
                 <h1 className=" lg:text-7xl text-4xl py-5   ">SKILLS</h1>
-                <p className=" font-thin pr-10">I can help if you have a digital product you want to design, or already have one, and want to make it look better, more interactive, and easier to use.</p>
+                <p className=" font-thin pr-10">{skillsPara.para1}</p>
                 </div>
             </div>
             <div className="border-l-2 border-b-2 ">

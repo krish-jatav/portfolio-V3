@@ -8,6 +8,7 @@ import Marquee from "./morque";
 import Footer from "./footer";
 import Lenis from '@studio-freight/lenis'
 import { useEffect } from "react";
+import Skillsdata from "./skillsData/Skillsdata";
 
 
 export default function Home() {
@@ -29,10 +30,14 @@ requestAnimationFrame(raf)
   return (
     <div>
 <Noise></Noise>
-      <HomePage> </HomePage> <SelectedWork></SelectedWork>
+      <HomePage> </HomePage>
+
       <HomeAbout> </HomeAbout>
-      <Marquee></Marquee>
+      <SelectedWork></SelectedWork>
+      <Skillsdata></Skillsdata>
       <Skills></Skills>
+
+      {/* <Marquee></Marquee> */}
       <Footer></Footer>
     </div>
   );

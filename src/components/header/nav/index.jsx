@@ -6,6 +6,7 @@ import { menuSlide } from '../anim';
 import Link from './Link';
 import Curve from './Curve';
 import Footer from './Footer';
+import { MoveDownRight } from 'lucide-react';
 
 const navItems = [
   {
@@ -34,10 +35,9 @@ export default function index() {
   return (
     <motion.div  variants={menuSlide} initial="initial" animate="enter" exit="exit" className={styles.menu}>
        <div className={styles.body}>
-        <h1>Krish</h1>
             <div onMouseLeave={() => {setSelectedIndicator(pathname)}} className={styles.nav} >
                     <div className={styles.header}>
-                        <p>Navigation</p>
+                        <p className='flex gap-3'> <MoveDownRight></MoveDownRight>  Navigation</p>
                     </div>
                     {
                       navItems.map( (data, index) => {
