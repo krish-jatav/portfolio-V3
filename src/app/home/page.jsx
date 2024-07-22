@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import { paraItme, HomePageData } from "../../../constant";
 import { motion } from "framer-motion";
