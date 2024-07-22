@@ -1,3 +1,5 @@
+"use client"
+
 import { motion } from "framer-motion";
 import { MoveDownRight } from "lucide-react";
 import { useRef, useState } from 'react';
