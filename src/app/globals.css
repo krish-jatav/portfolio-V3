@@ -8,6 +8,12 @@
     /* IE and Edge */
 }
 
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
 
 /* Hide scrollbar for WebKit-based browsers (Chrome, Safari, etc.) */
 
@@ -18,7 +24,6 @@
 
 body {
     background: #DDDDD8;
+    /* background: #AFAF9D; */
     color: #161614;
-    /* overflow-y: hidden; */
-    /* overflow: hidden; */
 }

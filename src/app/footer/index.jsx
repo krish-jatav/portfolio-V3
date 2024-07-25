@@ -3,8 +3,8 @@ import { FooterItem } from "../../../constant";
 
 export default function Footer() {
     return (
-      <div data-scroll data-scroll-section  className=" bg-[#DDDDD8] rounded-t-[2rem]   text-[#161614] ">
-        <div className=" px-12">
+      <div data-scroll data-scroll-section  className=" bg-[#DDDDD8] rounded-t-[2rem]  overflow-hidden   text-[#161614] ">
+        <div className="   px-12">
           <div className="py-5 border-b-2 border-black ">
             <h1 className="text-2xl">About</h1>
           </div>

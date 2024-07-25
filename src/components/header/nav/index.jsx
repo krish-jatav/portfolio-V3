@@ -35,13 +35,15 @@ export default function index() {
   return (
     <motion.div  variants={menuSlide} initial="initial" animate="enter" exit="exit" className={styles.menu}>
        <div className={styles.body}>
+
             <div onMouseLeave={() => {setSelectedIndicator(pathname)}} className={styles.nav} >
+  
                     <div className={styles.header}>
-                        <p className='flex gap-3'> <MoveDownRight></MoveDownRight>  Navigation</p>
+                        <p className='flex gap-3 text-xl'> <MoveDownRight></MoveDownRight>  Navigation</p>
                     </div>
                     {
                       navItems.map( (data, index) => {
-                        return <Link className="hover:ml-6" key={index} data={{...data, index}} isActive={selectedIndicator == data.href} setSelectedIndicator={setSelectedIndicator}></Link>
+                        return <Link className="hover:ml-6 " key={index} data={{...data, index}} isActive={selectedIndicator == data.href} setSelectedIndicator={setSelectedIndicator}></Link>
                       })
                     }
 

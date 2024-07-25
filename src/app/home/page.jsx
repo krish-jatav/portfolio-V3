@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import ButtonCmp from "../button";
 export default function HomePage() {
   return (
-    <motion.div className=" bg-[#DDDDD8]">
+    <motion.div className=" bg-[#DDDDD8] ">
       <motion.div className="flex  text-center justify-center px-10  w-full relative items-center">
         <motion.h1
           initial={{ opacity: 0 }}
@@ -22,7 +22,7 @@ export default function HomePage() {
       <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 10 }}
+          transition={{ duration: 1 }}
           className="  text-sm lg:text-xl py-10 w-full md:w-96"
         >
           {paraItme.para}

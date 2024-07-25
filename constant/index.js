@@ -1,4 +1,5 @@
-import { myImage, Uiux, chairlable, chatgpt, code, creativeDev, css3, docker, figma, genAi, github, gpt3, hoobank, html, ipdc, js, lassles, metaverse, mongodb, next, nike, node, ochi, prisma, python, ranching, react_query, redBull, redux, rhf, tailwind, theArt, trpc, typescript, zod, } from "../public";
+import { Contact } from "lucide-react";
+import { getinTouch, mockup1, myImage, Uiux, chairlable, chatgpt, code, creativeDev, css3, docker, figma, genAi, github, gpt3, hoobank, html, ipdc, js, lassles, metaverse, mongodb, next, nike, node, ochi, prisma, python, ranching, react_query, redBull, redux, rhf, tailwind, theArt, trpc, typescript, zod, mockup2, mockup3, } from "../public";
 export
 const paraItme = {
     para: "I am a freelance front-end developer and web designer, helping startups all around the world gain their unfair advantage.",
@@ -21,9 +22,8 @@ export const skillsItem = {
 export const FooterItem = [
     { item: "GITHUB", href: "https://github.com/yourusername" },
     { item: "LINKEDIN", href: "https://linkedin.com/in/yourprofile" },
-    { item: "krishjatav246@gmail.com", href: "mailto:krishjatav246@gmail.com" },
-    { item: "INSTAGRAM", href: "https://instagram.com/yourusername" },
-    { item: "TWITTER", href: "https://twitter.com/yourusername" }
+    { item: "INSTAGRAM", href: "https://linkedin.com/in/yourprofile" },
+    { getIn: getinTouch }
 ];
 export const skillsPara = {
     para1: "I then bring your online vision to life with coding or CMS, depending on your needs."
@@ -112,3 +112,15 @@ export const skillsData = [{
 export const HomePageData = [{
     image1: myImage
 }];
+export const SelectedProject = [{
+    image1: mockup1,
+    image2: mockup2,
+    image3: mockup3,
+}];
+
+export const ContactData = {
+    para1: "LET'S BRING YOUR YOUR PROJECT TO LIFE.",
+    para2: "Looking for a forward - thinking partner ? ",
+    para3: "I'm  always excited to hear about new project and ideas. If you 're interested in working together,please fill out the form below. "
+
+}
