@@ -29,6 +29,8 @@ export const skillsPara = {
     para1: "I then bring your online vision to life with coding or CMS, depending on your needs."
 }
 
+
+
 export const skillsData = [{
         id: 1,
         src: html

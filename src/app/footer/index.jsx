@@ -6,7 +6,7 @@ export default function Footer() {
       <div data-scroll data-scroll-section  className=" bg-[#DDDDD8] rounded-t-[2rem]  overflow-hidden   text-[#161614] ">
         <div className="   px-12">
           <div className="py-5 border-b-2 border-black ">
-            <h1 className="text-2xl">About</h1>
+            <h1 className="text-2xl">Hey There..</h1>
           </div>
           <div className="pt-1">
             <h1 className="text-xl lg:text-4xl pb-10  lg:w-[50vw] ">
@@ -21,6 +21,8 @@ export default function Footer() {
                            {footer.item}
                         </div>
                     ))}
+
+                    <h1 className="text-lg text-neutral-600">copyright © 2024 Krish</h1>
 
           </div>
         </div>

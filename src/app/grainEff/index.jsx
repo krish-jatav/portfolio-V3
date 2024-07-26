@@ -31,7 +31,7 @@ export default function Noise() {
                 result="turbulence"
               ></feTurbulence>
               <feSpecularLighting
-                surfaceScale="15"
+                surfaceScale="14"
                 specularConstant="0.5"
                 specularExponent="20"
                 lightingColor="#d1d0c9"

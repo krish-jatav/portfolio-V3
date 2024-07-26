@@ -4,7 +4,11 @@ import { motion } from "framer-motion";
 import { MoveDownRight } from "lucide-react";
 import { useRef, useState } from 'react';
 
-export default function ButtonCmp() {
+export default function ButtonCmp({children,
+    onClick,
+    type = 'button',
+    disabled = false,
+    variant = 'primary',}) {
     const ref = useRef(null);
     const [position, setPosition] = useState({ x: 0, y: 0 });
 
@@ -32,7 +36,7 @@ export default function ButtonCmp() {
                 transition={{ type: "spring", stiffness: 50, damping: 10 }}
                 className="rounded-3xl flex py-2 absolute bg-transparent px-3 mt-3 border border-black text-black"
             >
-             <span><MoveDownRight></MoveDownRight></span>   Get in Touch
+             <span><MoveDownRight></MoveDownRight></span>{children}
             </motion.button>
         </motion.div>
     );

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: montreal;
+    src: url(./font/PPNeueMontreal.woff);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,4 +31,5 @@ body {
     background: #DDDDD8;
     /* background: #AFAF9D; */
     color: #161614;
+    font-family: montreal;
 }
