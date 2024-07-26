@@ -1,3 +1,6 @@
+"use client"
+
+import Link from "next/link";
 import ButtonCmp from "../button";
 
 export default function HomeAbout() {
@@ -9,10 +12,10 @@ export default function HomeAbout() {
         </div>
         <div className=" py-10">
           <h1 className="text-xl text-[#3c3c3a] font-normal  lg:text-3xl pb-20 border-b-2 border-[#3c3c3a]  lg:w-[50vw] ">
-          Hi, I'm Krish, a passionate and dedicated freelance Frontend Developer with expertise in building engaging and responsive user interfaces. With a background in Computer Science and a specialization in Web Development, I have honed my skills in HTML, CSS, JavaScript, ReactJS, and Angular
-          <div className="text-xl">
-          <ButtonCmp>Read more</ButtonCmp>
-          </div>
+          Hi, I'm Krish, a passionate and dedicated freelance Frontend Developer with expertise in building engaging and responsive user interfaces. With a background in Computer Science and a specialization in Web Development .
+          <Link className="text-xl" href="/about" passHref>
+        <ButtonCmp>Read more</ButtonCmp>
+      </Link>
           </h1>
 
 

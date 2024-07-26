@@ -126,3 +126,9 @@ export const ContactData = {
     para3: "I'm  always excited to hear about new project and ideas. If you 're interested in working together,please fill out the form below. "
 
 }
+export const AboutData = {
+    para1: "Some interesting facts about me —",
+    para2: "Looking for a forward - thinking partner ? ",
+    para3: "I'm  always excited to hear about new project and ideas. If you 're interested in working together,please fill out the form below. "
+
+}

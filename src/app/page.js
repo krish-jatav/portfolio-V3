@@ -4,7 +4,6 @@ import HomePage from "./home/page";
 import HomeAbout from "./homeAbout";
 import Noise from "./grainEff";
 import Skills from "./skills";
-import Marquee from "./morque";
 import Footer from "./footer";
 import Lenis from "@studio-freight/lenis";
 import { useEffect } from "react";

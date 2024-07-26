@@ -1,6 +1,10 @@
+"use client"
+
 import React from 'react'
-import { HomePageData, image1 } from '../../../constant'
+import { AboutData, HomePageData } from '../../../constant'
 import Image from 'next/image'
+import Marquee from '../morque'
+import Footer from '../footer'
 
 
 
@@ -8,35 +12,37 @@ export default function index() {
   return (
     <div className='border-b-2 relative bottom-[5rem]  bg-[#131311] text-[#CECEC4]'>
 
-     <div className=' flex px-10 h-screen w-full bg-slate-500'>
-      <div  className='  lg:flex flex-col justify-center items-center  '>
-        <div className='h-[50vh] w-[50vw] bg-slate-50 '>
-        <h1 className='lg:text-8xl pl-10'>Some interesting facts about me —</h1>
+<div className="flex flex-col lg:flex-row h-[100vh] w-full">
+  <div className="h-[50vh] lg:h-[100vh] flex justify-center items-center lg:w-[50vw] ">
+    <div className=' px-20'>
+      <h1 className='text-5xl md:text-5xl lg:text-7xl'>{AboutData.para1}</h1>
+    </div>
+  </div>
+  <div className="h-[30rem] lg:h-full p-0 flex justify-center items-center lg:w-[50vw]  bg-[#131311]">
+  <div className=' h-[60vh] w-[20rem] rounded-lg overflow-hidden bg-black'>
+    <Image src={HomePageData[0].image1} height={100} width={100} alt='aboutIMG' className='h-full w-full object-cover'></Image>
+    </div>
+  </div>
+</div>
 
-        </div>
+   <div className='h-full w-full px-10 mt-10 '>
+    <div className=''>
+      <h1 className='lg:text-6xl text-[5rem] font-bold'>What I Do</h1>
+    </div>
+    <div className='  mt-10'>
+      <h2 className=' font-semibold text-3xl'>As a frontend developer, I specialize in:</h2>
+    </div>
+    <div className='pb-20'>
+      <ul className='text-2xl'>
+        <li className='mt-10'>Web Development: Building responsive and dynamic websites using the latest web technologies.</li>
+        <li className='mt-10'>UI/UX Design: Creating intuitive and visually appealing user interfaces that enhance the user experience.</li>
+        <li className='mt-10'>JavaScript Frameworks: Expertise in ReactJS and Angular for developing interactive and efficient single-page applications.</li>
+        <li className='mt-10'>Collaboration: Working closely with designers, backend developers, and other stakeholders to ensure seamless project delivery.</li>
+      </ul>
+    </div>
 
-      </div>
-      <div className=' h-screen w-[50vw]  flex justify-center items-center'>
-        <div className='h-[50vh] w-[50vw] lg:h-[90vh] lg:w-[35vw] bg-white'>
-        {/* <Image
-            className="h-full  w-full object-cover "
-            src={HomePageData[0].image1}
-
-            alt="image1"
-          /> */}
-        </div>
-      </div>
-     </div>
-     <div className='h-screen flex justify-center items-center bg-[#131311] text-[#CECEC4]'>
-       <div className='w-[85vw] flex justify-center items-center h-[70vh] rounded-xl bg-[#C0C0C0]'>
-       <p className='text-black lg:p-20 p-6 text-sm'>
-                        "Hello, I'm Krish, a passionate Frontend web developer with a background in software engineering. My journey in web development has been fueled by a deep love for crafting seamless digital experiences. Recently, <br /><br /> I've
-                        embarked on the exciting challenge of expanding my skill set to encompass Fullstack web development, driven by a desire to explore the intricate workings of both frontend and backend technologies. Leveraging my solid foundation
-                        in software engineering, I am committed to creating clean and intuitive user interfaces that enhance user experiences. <br /><br /> Each project is an opportunity for me to push boundaries, solve problems, and innovate in the ever-evolving
-                        landscape of technology. I'm Krish, a dedicated individual, eager to carve my path and make meaningful contributions in the dynamic world of web development."
-                    </p>
-       </div>
-     </div>
+   </div>
+   <Footer></Footer>
     </div>
   )
 }
