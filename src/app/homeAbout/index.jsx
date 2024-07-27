@@ -13,7 +13,7 @@ export default function HomeAbout() {
         <div className=" py-10">
           <h1 className="text-xl text-[#3c3c3a] font-normal  lg:text-3xl pb-20 border-b-2 border-[#3c3c3a]  lg:w-[50vw] ">
           Hi, I'm Krish, a passionate and dedicated freelance Frontend Developer with expertise in building engaging and responsive user interfaces. With a background in Computer Science and a specialization in Web Development .
-          <Link className="text-xl" href="/about" passHref>
+          <Link className="text-xl" href="/about">
         <ButtonCmp>Read more</ButtonCmp>
       </Link>
           </h1>

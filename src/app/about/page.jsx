@@ -1,5 +1,6 @@
-// "use client";
-import React from "react";
+"use client";
+import Link from "next/link";
+// import React from "react";
 import {
   AboutData,
   AboutData2,
@@ -21,9 +22,9 @@ export default function index() {
           </div>
         </div>
         <div className="h-[30rem] lg:h-full  p-0 flex justify-center items-center lg:w-[50vw]  bg-[#131311]">
-          <div className=" h-[60vh] w-[20rem] rounded-lg overflow-hidden bg-black">
+          <div className=" h-[60vh] w-[20rem] rounded-lg  bg-black">
             <Image
-              src={HomePageData.image1}
+              src={HomePageData2.image2}
               height={100}
               width={100}
               alt="aboutIMG"

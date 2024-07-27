@@ -40,7 +40,7 @@ export default function HomePage() {
         >
           <Image
             className="h-full  w-full object-cover "
-            src={HomePageData[0].image1}
+            src={HomePageData.image1}
             alt="image1"
           />
         </motion.div>
