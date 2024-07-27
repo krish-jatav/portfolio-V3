@@ -1,6 +1,5 @@
-import { getinTouch, mockup1, myImage, Uiux, chairlable, chatgpt, code, creativeDev, css3, docker, figma, genAi, github, gpt3, hoobank, html, ipdc, js, lassles, metaverse, mongodb, next, nike, node, ochi, prisma, python, ranching, react_query, redBull, redux, rhf, tailwind, theArt, trpc, typescript, zod, mockup2, mockup3, } from "../public";
-export
-const paraItme = {
+import { getinTouch, mockup1, myImage, Uiux, chairlable, chatgpt, code, creativeDev, css3, docker, figma, genAi, github, gpt3, hoobank, html, ipdc, js, lassles, metaverse, mongodb, next, nike, node, ochi, prisma, python, ranching, react_query, redBull, redux, rhf, tailwind, theArt, trpc, typescript, zod, mockup2, mockup3, myImage2, } from "../public";
+export const paraItme = {
     para: "I am a freelance front-end developer and web designer, helping startups all around the world gain their unfair advantage.",
     para2: "DESIGNER, DEVELOPER, CREATOR",
     para2p: "I create unique, custom-coded websites that are tailored to your brand. I focus on scalability, performance, accessibility, and engaging animations for a memorable experience.",
@@ -112,7 +111,13 @@ export const skillsData = [{
 
 export const HomePageData = [{
     image1: myImage
+
 }];
+export const HomePageData2 = [{
+    image2: myImage2
+
+}];
+
 export const SelectedProject = [{
     image1: mockup1,
     image2: mockup2,

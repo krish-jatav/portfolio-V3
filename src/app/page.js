@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import SelectedWork from "./SelectedWork/page";
 import HomePage from "./home/page";
 import HomeAbout from "./homeAbout";
@@ -31,7 +31,6 @@ export default function Home() {
       <SelectedWork></SelectedWork>
       <Skillsdata></Skillsdata>
       <Skills></Skills>
-      {/* <Marquee></Marquee> */}
       <Footer></Footer>
     </div>
   );
