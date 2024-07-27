@@ -132,3 +132,25 @@ export const AboutData = {
     para3: "I'm  always excited to hear about new project and ideas. If you 're interested in working together,please fill out the form below. "
 
 }
+export const AboutData2 = {
+    para1: "Interesting Facts About Me",
+    para2: "Constantly exploring new technologies and creative skills, always on the lookout for the next challenge and growth opportunity.",
+    para3: "Passionate about capturing diverse cultures through photography, preserving moments and stories from around the globe. ",
+    para4: "Developed video editing skills as a hobby, blending creativity with technical know-how to produce engaging visual content..",
+    para5: "Music Lover: When I'm not coding or editing videos, you can often find me listening to music. I find inspiration in various genres, and it often fuels my creativity, whether I'm working on a web project or editing a video.",
+    para6: "Enthusiastic about the latest gadgets and trends, staying updated with cutting-edge technology and innovations.",
+    para7: "Culinary Adventurer: I love experimenting with new recipes and cuisines. Cooking is a creative outlet for me, and I enjoy sharing meals with friends and family. It's a great way to unwind and explore new flavors."
+}
+export const SelectedProject2 = [{
+        image: "https://cdn.dribbble.com/userupload/4047087/file/original-42ea35b6c6cafaaf64b26cb0d7a537fb.jpg?resize=1200x900&vertical=center",
+        link: "https://example.com/project1"
+    },
+    {
+        image: "https://cdn.dribbble.com/userupload/5153826/file/original-2e1ef8ee908609add04509255479b491.png?resize=1200x900",
+        link: "https://example.com/project2"
+    },
+    {
+        image: "https://cdn.dribbble.com/userupload/6211720/file/original-f312fd901219f61e70feea1060398914.png?resize=1200x900",
+        link: "https://example.com/project3"
+    }
+];

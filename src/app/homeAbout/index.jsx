@@ -5,7 +5,7 @@ import ButtonCmp from "../button";
 
 export default function HomeAbout() {
   return (
-    <div   className=" mt-10  bg-[#DDDDD8]  text-[#171715] ">
+    <div     className=" mt-10  bg-[#DDDDD8]  text-[#171715] ">
       <div className=" px-10">
         <div className="py-5 border-b-2 border-black">
           <h1 className="text-2xl">About</h1>

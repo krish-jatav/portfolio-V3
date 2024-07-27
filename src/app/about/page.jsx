@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import { AboutData, HomePageData } from '../../../constant'
+import { AboutData, AboutData2, HomePageData } from '../../../constant'
 import Image from 'next/image'
 import Marquee from '../morque'
 import Footer from '../footer'
@@ -18,26 +18,32 @@ export default function index() {
       <h1 className='text-5xl md:text-5xl lg:text-7xl'>{AboutData.para1}</h1>
     </div>
   </div>
-  <div className="h-[30rem] lg:h-full p-0 flex justify-center items-center lg:w-[50vw]  bg-[#131311]">
+  <div className="h-[30rem] lg:h-full  p-0 flex justify-center items-center lg:w-[50vw]  bg-[#131311]">
   <div className=' h-[60vh] w-[20rem] rounded-lg overflow-hidden bg-black'>
-    <Image src={HomePageData[0].image1} height={100} width={100} alt='aboutIMG' className='h-full w-full object-cover'></Image>
+    <Image src={HomePageData[0].image1}  width={1000} alt='aboutIMG' className='h-full w-full object-cover'></Image>
     </div>
   </div>
 </div>
 
-   <div className='h-full w-full px-10 mt-10 '>
-    <div className=''>
-      <h1 className='lg:text-6xl text-[5rem] font-bold'>What I Do</h1>
+
+   <div className='h-full w-full flex lg:justify-end   flex-col lg:flex-row  px-10  '>
+
+
+    <div className=' lg:w-[50vw] flex flex-col justify-center pb-20  items-center mt-10'>
+
+      <div className='  hidden lg:block w-full px-10      lg:h-[80vh] rounded-lg overflow-hidden '>
+    <Image src={HomePageData[0].image1} height={500} width={500} alt='aboutIMG' className='h-full w-full rounded-2xl object-cover'></Image>
     </div>
-    <div className='  mt-10'>
-      <h2 className=' font-semibold text-3xl'>As a frontend developer, I specialize in:</h2>
     </div>
-    <div className='pb-20'>
-      <ul className='text-2xl'>
-        <li className='mt-10'>Web Development: Building responsive and dynamic websites using the latest web technologies.</li>
-        <li className='mt-10'>UI/UX Design: Creating intuitive and visually appealing user interfaces that enhance the user experience.</li>
-        <li className='mt-10'>JavaScript Frameworks: Expertise in ReactJS and Angular for developing interactive and efficient single-page applications.</li>
-        <li className='mt-10'>Collaboration: Working closely with designers, backend developers, and other stakeholders to ensure seamless project delivery.</li>
+    <div className=' lg:w-[50vw] lg:px-10'>
+      <ul className='text-sm'>
+        <li className='mt-5 text-lg border-b py-5 border-fuchsia-50'> <span className='font-bold text-2xl'>01{" "}Lifelong Learner:</span>{" "}{AboutData2.para2}</li>
+        <li className='mt-5 text-lg border-b py-5 border-fuchsia-50'> <span className='font-bold text-2xl'>02{" "}World Traveler:</span>{" "}{AboutData2.para3}</li>
+        <li className='mt-5 text-lg border-b py-5 border-fuchsia-50'> <span className='font-bold text-2xl'>03{" "}Self-Taught Videographer:</span>{" "}{AboutData2.para4}</li>
+        <li className='mt-5 text-lg border-b py-5 border-fuchsia-50'> <span className='font-bold text-2xl'>04{" "}Music Lover:</span>{" "}{AboutData2.para5}</li>
+        <li className='mt-5 text-lg border-b py-5 border-fuchsia-50'> <span className='font-bold text-2xl'>05{" "}Culinary Adventurer:</span>{" "}{AboutData2.para6}</li>
+
+
       </ul>
     </div>
 
