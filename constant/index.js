@@ -109,14 +109,14 @@ export const skillsData = [{
     },
 ]
 
-export const HomePageData = [{
+export const HomePageData = {
     image1: myImage
 
-}];
-export const HomePageData2 = [{
+};
+export const HomePageData2 = {
     image2: myImage2
 
-}];
+};
 
 export const SelectedProject = [{
     image1: mockup1,
