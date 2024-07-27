@@ -3,7 +3,6 @@ import Image from "next/image";
 import { paraItme, HomePageData } from "../../../constant";
 import { motion } from "framer-motion";
 import ButtonCmp from "../button";
-import { ArrowBigRightIcon, Copyright, CopyrightIcon, Flower } from "lucide-react";
 import Circle from "../../../animation/Circle";
 export default function HomePage() {
   return (

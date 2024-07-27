@@ -1,4 +1,3 @@
-import { Contact } from "lucide-react";
 import { getinTouch, mockup1, myImage, Uiux, chairlable, chatgpt, code, creativeDev, css3, docker, figma, genAi, github, gpt3, hoobank, html, ipdc, js, lassles, metaverse, mongodb, next, nike, node, ochi, prisma, python, ranching, react_query, redBull, redux, rhf, tailwind, theArt, trpc, typescript, zod, mockup2, mockup3, } from "../public";
 export
 const paraItme = {
