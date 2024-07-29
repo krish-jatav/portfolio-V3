@@ -118,11 +118,11 @@ export const HomePageData2 = {
 
 };
 
-export const SelectedProject = [{
+export const SelectedProject = {
     image1: mockup1,
     image2: mockup2,
     image3: mockup3,
-}];
+};
 
 export const ContactData = {
     para1: "LET'S BRING YOUR YOUR PROJECT TO LIFE.",
