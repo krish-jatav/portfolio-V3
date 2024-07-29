@@ -1,6 +1,6 @@
 "use client";
-import Link from "next/link";
-// import React from "react";
+// import Link from "next/link";
+import React from "react";
 import {
   AboutData,
   AboutData2,
@@ -10,7 +10,7 @@ import {
 import Footer from "../footer";
 import Image from "next/image";
 
-export default function index() {
+export default function About() {
   return (
     <div className="border-b-2 relative bottom-[5rem]  bg-[#131311] text-[#CECEC4]">
       <div className="flex flex-col lg:flex-row h-[100vh] w-full">
@@ -24,7 +24,7 @@ export default function index() {
         <div className="h-[30rem] lg:h-full  p-0 flex justify-center items-center lg:w-[50vw]  bg-[#131311]">
           <div className=" h-[60vh] w-[20rem] rounded-lg  bg-black">
             <Image
-              src={HomePageData2.image2}
+              src={HomePageData.image1}
               height={100}
               width={100}
               alt="aboutIMG"
