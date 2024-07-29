@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body  suppressHydrationWarning={true}>
+      <body>
         <Header/>
         {children}
         <Noise></Noise>

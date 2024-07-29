@@ -69,10 +69,12 @@ export { default as genAi }
 from "./genAi.png";
 export { default as getinTouch }
 from "./contact.svg";
-export { default as myImage }
-from "./profileIMG.jpg";
+export { default as myImage1 }
+from "./profile1.jpg";
 export { default as myImage2 }
-from "./profileIMG2.jpg";
+from "./profile2.jpg";
+export { default as myImage3 }
+from "./profile3.jpg";
 export { default as mockup1 }
 from "./mockup1.png";
 export { default as mockup2 }

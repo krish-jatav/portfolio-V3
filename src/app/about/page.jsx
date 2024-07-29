@@ -24,9 +24,9 @@ export default function About() {
         <div className="h-[30rem] lg:h-full  p-0 flex justify-center items-center lg:w-[50vw]  bg-[#131311]">
           <div className=" h-[60vh] w-[20rem] rounded-lg  bg-black">
             <Image
-              src={HomePageData.image1}
-              width={500}
-              height={500}
+              src={HomePageData2.Profileimage2}
+              width={100}
+              height={100}
               alt="aboutIMG"
               className="h-full w-full object-cover"
             ></Image>
@@ -38,9 +38,9 @@ export default function About() {
         <div className=" lg:w-[50vw] flex flex-col justify-center pb-20  items-center mt-10">
           <div className="  hidden lg:block w-full px-10  lg:h-[80vh] rounded-lg overflow-hidden ">
             <Image
-              src={HomePageData2.image2}
-              width={1000}
-      height={1000}
+              src={HomePageData2.Profileimage2}
+              width={100}
+      height={100}
               alt="aboutimage2"
               className="h-full w-full rounded-2xl object-cover"
             ></Image>

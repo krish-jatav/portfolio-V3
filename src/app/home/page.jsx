@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { paraItme, HomePageData } from "../../../constant";
+import { HomePageData, paraItme } from "../../../constant";
 import { motion } from "framer-motion";
 import ButtonCmp from "../button";
 import Circle from "../../../animation/Circle";
@@ -40,7 +40,7 @@ export default function HomePage() {
         >
           <Image
             className="h-full  w-full object-cover "
-            src={HomePageData.image1}
+            src={HomePageData.Profileimage1} height={100} width={100}
             alt="image1"
           />
         </motion.div>
