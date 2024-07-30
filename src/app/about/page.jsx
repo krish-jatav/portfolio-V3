@@ -1,5 +1,4 @@
 "use client";
-// import Link from "next/link";
 import React from "react";
 import {
   AboutData,
@@ -10,7 +9,7 @@ import {
 import Footer from "../footer";
 import Image from "next/image";
 
-export default function About() {
+export default function index() {
   return (
     <div className="border-b-2 relative bottom-[5rem]  bg-[#131311] text-[#CECEC4]">
       <div className="flex flex-col lg:flex-row h-[100vh] w-full">

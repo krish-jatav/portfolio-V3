@@ -40,7 +40,7 @@ export default function HomePage() {
         >
           <Image
             className="h-full  w-full object-cover "
-            src={HomePageData.Profileimage1} height={100} width={100}
+            src={HomePageData.Profileimage1} priority={false}
             alt="image1"
           />
         </motion.div>
