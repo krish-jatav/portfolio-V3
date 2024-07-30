@@ -24,8 +24,8 @@ export default function index() {
           <div className=" h-[60vh] w-[20rem] rounded-lg  bg-black">
             <Image
               src={HomePageData2.Profileimage2}
-              width={100}
-              height={100}
+              width={1000}
+              height={1000}
               alt="aboutIMG"
               className="h-full w-full object-cover"
             ></Image>
@@ -38,8 +38,8 @@ export default function index() {
           <div className="  hidden lg:block w-full px-10  lg:h-[80vh] rounded-lg overflow-hidden ">
             <Image
               src={HomePageData2.Profileimage2}
-              width={100}
-      height={100}
+              width={1000}
+      height={1000}
               alt="aboutimage2"
               className="h-full w-full rounded-2xl object-cover"
             ></Image>
