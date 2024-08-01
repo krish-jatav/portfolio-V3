@@ -3,7 +3,7 @@
 import React from 'react'
 import { ContactData } from '../../../constant'
 import { ArrowDown } from 'lucide-react'
-import Footer from '../footer'
+import Footer from '../footer/page'
 
 
 
@@ -25,7 +25,7 @@ export default function index() {
          </div>
       </div>
       <div>
-        <Footer></Footer>
+<Footer></Footer>
       </div>
     </div>
   )

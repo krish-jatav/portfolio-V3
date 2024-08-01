@@ -2,8 +2,8 @@
 import Image from "next/image";
 import { HomePageData, paraItme } from "../../../constant";
 import { motion } from "framer-motion";
-import ButtonCmp from "../button";
 import Circle from "../../../animation/Circle";
+import ButtonCmp from "../button/page";
 export default function HomePage() {
   return (
     <motion.div className=" bg-[#DDDDD8] ">
@@ -27,7 +27,7 @@ export default function HomePage() {
         >
           {paraItme.para}
           <div className="text-lg">
-          <ButtonCmp>Get in Touch</ButtonCmp>
+            <ButtonCmp>Get in Touch</ButtonCmp>
           </div>
 
         </motion.div>

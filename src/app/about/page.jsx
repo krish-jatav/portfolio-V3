@@ -6,8 +6,8 @@ import {
   HomePageData,
   HomePageData2,
 } from "../../../constant";
-import Footer from "../footer";
 import Image from "next/image";
+import Footer from "../footer/page";
 
 export default function index() {
   return (
