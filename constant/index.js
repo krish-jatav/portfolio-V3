@@ -1,4 +1,4 @@
-import { getinTouch, mockup1, Uiux, chairlable, chatgpt, code, creativeDev, css3, docker, figma, genAi, github, gpt3, hoobank, html, ipdc, js, lassles, metaverse, mongodb, next, nike, node, ochi, prisma, python, ranching, react_query, redBull, redux, rhf, tailwind, theArt, trpc, typescript, zod, mockup2, mockup3, myImage1, myImage2, myImage3 } from "../public";
+import { getinTouch, mockup1, Uiux, chairlable, chatgpt, code, creativeDev, css3, docker, figma, genAi, github, gpt3, hoobank, html, ipdc, js, lassles, metaverse, mongodb, next, nike, node, ochi, prisma, python, ranching, react_query, redBull, redux, rhf, tailwind, theArt, trpc, typescript, zod, mockup2, mockup3, myImage1, myImage2, } from "../public";
 export const paraItme = {
     para: "I am a freelance front-end developer and web designer, helping startups all around the world gain their unfair advantage.",
     para2: "DESIGNER, DEVELOPER, CREATOR",

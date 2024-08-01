@@ -73,7 +73,6 @@ export { default as myImage1 }
 from "./profile1.png";
 export { default as myImage2 }
 from "./pic.jpg";
-
 export { default as mockup1 }
 from "./mockup1.png";
 export { default as mockup2 }

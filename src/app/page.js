@@ -32,7 +32,6 @@ export default function Home() {
 <SelectedWork></SelectedWork>
 <Skillsdata></Skillsdata>
 <Skills></Skills>
-      {/* <Marquee></Marquee> */}
       <Footer></Footer>
     </div>
   );
