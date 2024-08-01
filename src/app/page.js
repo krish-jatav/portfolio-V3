@@ -5,9 +5,9 @@ import { useEffect } from "react";
 import HomePage from "./home/page";
 import HomeAbout from "./homeAbout/page";
 import SelectedWork from "./SelectedWork/page";
-import Skillsdata from "./skillsData/page";
 import Skills from "./skills/page";
 import Footer from "./footer/page";
+import Skillsdata from "./skillsData/Skillsdata";
 
 export default function Home() {
   useEffect(() => {

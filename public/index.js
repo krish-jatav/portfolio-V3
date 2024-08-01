@@ -67,8 +67,7 @@ export { default as theArt }
 from "./ArtCentury.png";
 export { default as genAi }
 from "./genAi.png";
-export { default as getinTouch }
-from "./contact.svg";
+
 export { default as myImage1 }
 from "./profile1.png";
 export { default as mockup1 }
@@ -80,4 +79,4 @@ from "./mockup3.png";
 export { default as CircleText }
 from "./circle.svg";
 export { default as myImage2 }
-from "./Pic.png";
+from "./profile2.png";

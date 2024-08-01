@@ -13,7 +13,7 @@ export default function Footer() {
             <h1 className="text-xl lg:text-4xl pb-10  lg:w-[50vw] ">
             let's create something awesome together
             </h1>
-            {/* <img src="https://www.huyng.xyz/_next/static/media/contact.269b257e.svg"  alt="footer"/> */}
+            <img src="https://www.huyng.xyz/_next/static/media/contact.269b257e.svg"  alt="footer"/>
           </div>
           <div className=" lg:flex flex-col py-20 justify-between text-sm ">
 
