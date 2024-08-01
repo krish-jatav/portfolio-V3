@@ -71,8 +71,6 @@ export { default as getinTouch }
 from "./contact.svg";
 export { default as myImage1 }
 from "./profile1.png";
-export { default as myImage2 }
-from "./pic.jpg";
 export { default as mockup1 }
 from "./mockup1.png";
 export { default as mockup2 }
@@ -81,3 +79,5 @@ export { default as mockup3 }
 from "./mockup3.png";
 export { default as CircleText }
 from "./circle.svg";
+export { default as myImage2 }
+from "./pic.png";
