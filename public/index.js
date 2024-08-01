@@ -80,4 +80,4 @@ from "./mockup3.png";
 export { default as CircleText }
 from "./circle.svg";
 export { default as myImage2 }
-from "./pic.png";
+from "./Pic.png";
