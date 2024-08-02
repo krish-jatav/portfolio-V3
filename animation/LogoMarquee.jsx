@@ -11,7 +11,7 @@ import {
 } from "framer-motion";
 import { useRef } from "react";
 
-function LogoMarquee({ children, baseVelocity = 100 }) {
+export default function LogoMarquee({ children, baseVelocity = 100 }) {
 	const baseX = useMotionValue(0);
 	const { scrollY } = useScroll();
 	const scrollVelocity = useVelocity(scrollY);
@@ -53,4 +53,3 @@ function LogoMarquee({ children, baseVelocity = 100 }) {
 	);
 }
 
-export default LogoMarquee;

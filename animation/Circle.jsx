@@ -1,4 +1,5 @@
-motion
+
+"use client"
 import Image from "next/image";
 import { CircleText } from "../public";
 import { motion } from "framer-motion";
@@ -11,7 +12,7 @@ export default function Circle() {
         transition={{ repeat: Infinity, duration: 15, ease: "linear" }}>
             <Image src={CircleText}alt="circletext" width={150}   >
             </Image>
-        
+
             </motion.div>
 
       </div>

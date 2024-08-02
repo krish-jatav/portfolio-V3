@@ -1,5 +1,4 @@
 "use client"
-// import Image from "next/image";
 import { FooterItem } from "../../../constant";
 
 export default function Footer() {

@@ -1,6 +1,5 @@
-"use client"
+"use client";
 
-import React from 'react'
 import { ContactData } from '../../../constant'
 import { ArrowDown } from 'lucide-react'
 import Footer from '../footer/page'

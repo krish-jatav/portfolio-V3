@@ -1,3 +1,5 @@
+
+"use client";
 import React, { useState } from 'react'
 import styles from './style.module.scss';
 import { motion } from 'framer-motion';
@@ -37,7 +39,7 @@ export default function index() {
        <div className={styles.body}>
 
             <div onMouseLeave={() => {setSelectedIndicator(pathname)}} className={styles.nav} >
-  
+
                     <div className={styles.header}>
                         <p className='flex gap-3 text-xl'> <MoveDownRight></MoveDownRight>  Navigation</p>
                     </div>

@@ -1,13 +1,14 @@
 "use client";
 import Noise from "./grainEff";
 import Lenis from "@studio-freight/lenis";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import HomePage from "./home/page";
 import HomeAbout from "./homeAbout/page";
 import SelectedWork from "./SelectedWork/page";
 import Skills from "./skills/page";
 import Footer from "./footer/page";
 import Skillsdata from "./skillsData/Skillsdata";
+
 
 export default function Home() {
   useEffect(() => {
@@ -26,13 +27,13 @@ export default function Home() {
 
   return (
     <div>
-      <Noise></Noise>
-<HomePage></HomePage>
-<HomeAbout></HomeAbout>
-<SelectedWork></SelectedWork>
-<Skillsdata></Skillsdata>
-<Skills></Skills>
-      <Footer></Footer>
+      <Noise> </Noise>
+      <HomePage> </HomePage>
+      <HomeAbout> </HomeAbout>
+      <SelectedWork> </SelectedWork>
+      <Skillsdata> </Skillsdata>
+      <Skills> </Skills>
+   <Footer> </Footer>
     </div>
   );
 }

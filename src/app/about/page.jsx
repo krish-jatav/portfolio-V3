@@ -1,9 +1,8 @@
 "use client";
-import React from "react";
+// import React from "react";
 import {
   AboutData,
   AboutData2,
-  HomePageData,
   HomePageData2,
 } from "../../../constant";
 import Image from "next/image";
@@ -24,7 +23,7 @@ export default function index() {
           <div className=" h-[60vh] w-[20rem] rounded-lg  bg-black">
             <Image
               src={HomePageData2.Profileimage2}
-             
+
               alt="aboutIMG"
               className="h-full w-full object-cover"
             ></Image>
