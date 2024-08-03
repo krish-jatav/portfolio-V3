@@ -18,9 +18,10 @@ export const skillsItem = {
     skills: "WEBSITE DESIGN",
 }
 export const FooterItem = [
-    { item: "GITHUB", href: "https://github.com/yourusername" },
-    { item: "LINKEDIN", href: "https://linkedin.com/in/yourprofile" },
-    { item: "INSTAGRAM", href: "https://linkedin.com/in/yourprofile" },
+    { item: "GIT", href: "https://github.com/krish-jatav" },
+    { item: "LIN", href: "https://www.linkedin.com/in/krish-216117229/" },
+    { item: "INSTA", href: " " },
+    { item: "copyright © 2024 Krish", href: " " },
 ];
 export const skillsPara = {
     para1: "I then bring your online vision to life with coding or CMS, depending on your needs."

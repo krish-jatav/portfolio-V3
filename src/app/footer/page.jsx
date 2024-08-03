@@ -1,28 +1,37 @@
 "use client"
+import Link from "next/link";
 import { FooterItem } from "../../../constant";
 
 export default function Footer() {
     return (
-      <div data-scroll data-scroll-section  className=" bg-[#DDDDD8] rounded-t-[2rem]  overflow-hidden   text-[#161614] ">
-        <div className="   px-12">
-          <div className="py-5 border-b-2 border-black ">
-            <h1 className="text-2xl">Hey There..</h1>
+      <div   className=" bg-[rgb(221,221,216)] rounded-t-[2rem] sm:h-screen   overflow-hidden   w-full flex justify-center items-center      text-[#161614] ">
+        <div className=" w-full px-10  ">
+          <div className="py-5  ">
+            <h1 className="text-2xl">Hey There..............</h1>
           </div>
-          <div className="pt-1">
-            <h1 className="text-xl lg:text-4xl pb-10  lg:w-[50vw] ">
-            let's create something awesome together
+          <div className=" lg:h-[80vh] h-[50vh] bg-[#131311] rounded-3xl items-center flex flex-col justify-center ">
+            <div className=" text-center">
+            <h1 className="text-2xl sm:text-3xl font-semibold md:text-5xl lg:text-9xl text-[#DDDDD8] ">
+            Let's work  <br /> together
+
             </h1>
-            <img src="https://www.huyng.xyz/_next/static/media/contact.269b257e.svg"  alt="footer"/>
+            <h2 className="text-[#757474] text-sm p-6 font-light  lg:text-4xl ">krishjatav246@gmail.com  </h2>
+            </div>
           </div>
-          <div className=" lg:flex flex-col py-20 justify-between text-sm ">
+
+
+          <div className="  flex  py-6 justify-between text-sm ">
 
                         {FooterItem.map((footer, index) => (
-                        <div key={index} className="py-3">
-                           {footer.item}
+                        <div key={index} className="">
+                          <Link href={footer.href} className="">
+                          {footer.item}
+                          </Link>
+
+
                         </div>
                     ))}
 
-                    <h1 className="text-lg text-neutral-600">copyright © 2024 Krish</h1>
 
           </div>
         </div>

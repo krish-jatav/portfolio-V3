@@ -67,7 +67,6 @@ export { default as theArt }
 from "./ArtCentury.png";
 export { default as genAi }
 from "./genAi.png";
-
 export { default as myImage1 }
 from "./profile1.png";
 export { default as mockup1 }
