@@ -158,3 +158,11 @@ export const SelectedProject2 = [{
         link: "https://example.com/project3"
     }
 ];
+export const homeAboutdata = {
+
+    para1: " Hi, I'm Krish, a passionate and dedicated freelance Frontend Developer with expertise in building engaging and responsive user interfaces.With a background in Computer Science and a specialization in Web Development.",
+    customWebPara: "Crafting beautiful and intuitive websites using HTML, CSS, and JavaScript. By leveraging modern frameworks like ReactJS and Angular, I build dynamic and interactive web applications that engage users and provide a seamless experience. My expertise in responsive design ensures that your website looks and functions perfectly on all devices, from desktops to mobile phones. Whether you're looking to create a custom web interface that stands out or need a robust application that meets your business needs, I am committed to delivering high-quality web solutions tailored to your vision.",
+    modernFrameWorkpara: "Leveraging my expertise in React, Next.js, Express.js, and Node.js, I build dynamic and interactive web applications that engage users and provide a smooth and responsive experience. These modern frameworks allow me to create scalable and efficient applications that can handle complex functionalities while maintaining high performance. Whether it's a single-page application or a full-fledged web platform, I ensure that the application is robust, secure, and easy to maintain.",
+    ResponsiveDesignPara: "In today's mobile-first world, it's crucial that websites perform well on all devices. I ensure that your website looks and functions perfectly on desktops, tablets, and mobile phones. Using responsive design techniques, I make sure that your website adapts seamlessly to different screen sizes and resolutions, providing a consistent and engaging user experience."
+
+}
