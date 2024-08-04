@@ -18,7 +18,7 @@ export default function HomePage() {
         </motion.h1>
       </motion.div>
 
-      <div className=" px-10 items-center   lg:flex justify-between   sm:w-full">
+      <div className=" px-10 items-center md:flex    lg:flex justify-between   sm:w-full">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, scale: 1 }}

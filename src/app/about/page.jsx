@@ -47,33 +47,33 @@ export default function index() {
             <li className="mt-5 text-lg border-b py-5 border-fuchsia-50">
               {" "}
               <span className="font-bold text-2xl">
-                01 Lifelong Learner:
+                <span className=" font-thin">01</span> Lifelong Learner:
               </span>{" "}
               {AboutData2.para2}
             </li>
             <li className="mt-5 text-lg border-b py-5 border-fuchsia-50">
               {" "}
               <span className="font-bold text-2xl">
-                02 World Traveler:
+              <span className="font-thin">02</span> World Traveler:
               </span>{" "}
               {AboutData2.para3}
             </li>
             <li className="mt-5 text-lg border-b py-5 border-fuchsia-50">
               {" "}
               <span className="font-bold text-2xl">
-                03 Self-Taught Videographer:
+              <span className="font-thin">03</span> Self-Taught Videographer:
               </span>{" "}
               {AboutData2.para4}
             </li>
             <li className="mt-5 text-lg border-b py-5 border-fuchsia-50">
               {" "}
-              <span className="font-bold text-2xl">04 Music Lover:</span>{" "}
+              <span className="font-bold text-2xl"><span className="font-thin">04</span> Music Lover:</span>{" "}
               {AboutData2.para5}
             </li>
             <li className="mt-5 text-lg border-b py-5 border-fuchsia-50">
               {" "}
               <span className="font-bold text-2xl">
-                05 Culinary Adventurer:
+              <span className="font-thin">05</span> Culinary Adventurer:
               </span>{" "}
               {AboutData2.para6}
             </li>

@@ -70,11 +70,11 @@ from "./genAi.png";
 export { default as myImage1 }
 from "./profile1.png";
 export { default as mockup1 }
-from "./mockup1.png";
+from "./p1.png";
 export { default as mockup2 }
-from "./mockup2.png";
+from "./p2.png";
 export { default as mockup3 }
-from "./mockup3.png";
+from "./p3.png";
 export { default as CircleText }
 from "./circle.svg";
 export { default as myImage2 }

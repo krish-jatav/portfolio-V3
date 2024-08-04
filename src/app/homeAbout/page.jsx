@@ -11,7 +11,7 @@ export default function HomeAbout() {
   const [showCustomWebInterfaces1, setShowCustomWebInterfaces1] = useState(false);
   const [showCustomWebInterfaces2, setShowCustomWebInterfaces2] = useState(false);
   return (
-    <div className=" mt-10  bg-[#DDDDD8]  bg text-[#151513] ">
+    <div className=" mt-10  bg-[#DDDDD8]   text-[#212121] ">
       <div className=" px-10">
         <div className="py-5 border-b-2 border-black">
           <h1 className="text-2xl">About</h1>
@@ -37,7 +37,7 @@ export default function HomeAbout() {
             <ul className="text-2xl  w-[80vw] lg:ml-[15rem] ">
             <div className="lg:px-10  ">
                   <li className="mt-10 text-lg flex justify-between items-center border-t border-b py-5 border-[#171715]">
-                    <span className="font-bold lg:text-4xl text-[#171715]">Custom Web Interfaces</span>
+                    <span className="font-medium  lg:text-4xl text-[#171715]">Custom Web Interfaces</span>
                     <Plus onClick={() => setShowCustomWebInterfaces(!showCustomWebInterfaces)} className="cursor-pointer size-10" />
                   </li>
                   <div
@@ -45,14 +45,14 @@ export default function HomeAbout() {
                       showCustomWebInterfaces ? 'max-h-40' : 'max-h-0'
                     }`}
                   >
-                    <p className="py-5">
+                    <p className="py-5 text-[#464545]">
                       {homeAboutdata.customWebPara}
                     </p>
                   </div>
                 </div>
                 <div className="lg:px-10">
                   <li className=" text-lg flex justify-between items-center border-t border-b py-5 border-[#171715]">
-                    <span className="font-bold lg:text-4xl ">Modern Frameworks</span>
+                    <span className=" font-medium lg:text-4xl ">Modern Frameworks</span>
                     <Plus onClick={() => setShowCustomWebInterfaces1(!showCustomWebInterfaces1)} className="cursor-pointer size-10" />
                   </li>
                   <div
@@ -60,14 +60,14 @@ export default function HomeAbout() {
                       showCustomWebInterfaces1 ? 'max-h-40' : 'max-h-0'
                     }`}
                   >
-                    <p className="py-5">
+                    <p className="py-5 text-[#464545]">
      {homeAboutdata.modernFrameWorkpara}
                     </p>
                   </div>
                 </div>
                 <div className="lg:px-10">
                   <li className=" text-lg flex justify-between items-center border-b border-t  py-5 border-[#171715]">
-                    <span className="font-bold lg:text-4xl">Responsive Design</span>
+                    <span className="font-medium  lg:text-4xl">Responsive Design</span>
                     <Plus onClick={() => setShowCustomWebInterfaces2(!showCustomWebInterfaces2)} className="cursor-pointer size-10" />
                   </li>
                   <div
@@ -75,7 +75,7 @@ export default function HomeAbout() {
                       showCustomWebInterfaces2 ? 'max-h-40' : 'max-h-0'
                     }`}
                   >
-                    <p className="py-5">
+                    <p className="py-5 text-[#464545]">
                      {homeAboutdata.ResponsiveDesignPara}
                     </p>
                   </div>

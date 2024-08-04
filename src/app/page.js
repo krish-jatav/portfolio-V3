@@ -9,7 +9,6 @@ import Skills from "./skills/page";
 import Footer from "./footer/page";
 import Skillsdata from "./skillsData/Skillsdata";
 
-
 export default function Home() {
   useEffect(() => {
     const lenis = new Lenis();
@@ -27,13 +26,10 @@ export default function Home() {
 
   return (
     <div>
-      <Noise> </Noise>
-      <HomePage> </HomePage>
-      <HomeAbout> </HomeAbout>
-      <SelectedWork> </SelectedWork>
-      <Skillsdata> </Skillsdata>
-      <Skills> </Skills>
-   <Footer> </Footer>
+      {" "}
+      {/* <Noise> </Noise> */} <HomePage> </HomePage> <HomeAbout> </HomeAbout>{" "}
+      <SelectedWork> </SelectedWork> <Skillsdata> </Skillsdata>{" "}
+      <Skills> </Skills> <Footer> </Footer>{" "}
     </div>
   );
 }
