@@ -2,7 +2,7 @@
 
 export default function Noise() {
     return (
-        <div className=" fixed  inset-0 pointer-events-none z-50 opacity-50">
+        <div className=" fixed  inset-0 pointer-events-none z-50 opacity-40">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
@@ -22,7 +22,7 @@ export default function Noise() {
             >
               <feTurbulence
                 type="fractalNoise"
-                baseFrequency="0.120"
+                baseFrequency="20"
                 numOctaves="4"
                 seed="25"
                 stitchTiles="stitch"
@@ -33,9 +33,9 @@ export default function Noise() {
                 result="turbulence"
               ></feTurbulence>
               <feSpecularLighting
-                surfaceScale="14"
-                specularConstant="0.5"
-                specularExponent="20"
+                surfaceScale="10"
+                specularConstant=".4"
+                specularExponent="30"
                 lightingColor="#d1d0c9"
                 x="0%"
                 y="0%"

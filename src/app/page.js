@@ -27,7 +27,8 @@ export default function Home() {
   return (
     <div>
       {" "}
-      {/* <Noise> </Noise> */} <HomePage> </HomePage> <HomeAbout> </HomeAbout>{" "}
+      <Noise> </Noise>
+       <HomePage> </HomePage> <HomeAbout> </HomeAbout>{" "}
       <SelectedWork> </SelectedWork> <Skillsdata> </Skillsdata>{" "}
       <Skills> </Skills> <Footer> </Footer>{" "}
     </div>
