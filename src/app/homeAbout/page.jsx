@@ -5,14 +5,21 @@ import ButtonCmp from "../button/page";
 import { homeAboutdata } from "../../../constant";
 import { Plus } from "lucide-react";
 import { useState } from "react";
+import { motion, Variants  } from "framer-motion";
 
 export default function HomeAbout() {
   const [showCustomWebInterfaces, setShowCustomWebInterfaces] = useState(false);
   const [showCustomWebInterfaces1, setShowCustomWebInterfaces1] = useState(false);
   const [showCustomWebInterfaces2, setShowCustomWebInterfaces2] = useState(false);
+  const elmAnimate={
+    offscreen:{opacity:0},
+    onscreen:{opacity:1,
+      transition:{type:"spring", duration:1}
+    }
+   }
   return (
-    <div className=" mt-10  bg-[#DDDDD8]   text-[#212121] ">
-      <div className=" px-10">
+    <motion.div  className=" mt-10  bg-[#DDDDD8]   text-[#212121] ">
+      <motion.div initial={"offscreen"} whileInView={"onscreen"} viewport={{once:false, amount:0.7}} variants={elmAnimate} className=" px-10">
         <div className="py-5 border-b-2 border-black">
           <h1 className="text-2xl">About</h1>
         </div>
@@ -24,17 +31,17 @@ export default function HomeAbout() {
             </Link>
           </h1>
         </div>
-      </div>
+      </motion.div>
       <div>
         <div>
           <div className=" w-full lg:flex flex-col justify-between">
             <div className="lg:w-[80vw]  w-full px-3">
-            <h1 className="ml-10 lg:text-6xl text-3xl mt-5 lg:mt-20 font-bold">Web Development</h1>
-            <p className="ml-10 lg:text-xl text-xl mt-5 lg:mt-10 ">As a passionate frontend developer, I specialize in creating stunning and responsive web interfaces. Here’s how I can help you achieve your digital goals:</p>
+            <motion.h1 initial={"offscreen"} whileInView={"onscreen"} viewport={{once:false, amount:0.7}} variants={elmAnimate} className="ml-10 lg:text-6xl text-3xl mt-5 lg:mt-20 font-bold">Web Development</motion.h1>
+            <motion.p initial={"offscreen"} whileInView={"onscreen"} viewport={{once:false, amount:0.7}} variants={elmAnimate} className="ml-10 lg:text-xl text-xl mt-5 lg:mt-10 ">As a passionate frontend developer, I specialize in creating stunning and responsive web interfaces. Here’s how I can help you achieve your digital goals:</motion.p>
             </div>
 
             <div className=" px-10">
-            <ul className="text-2xl  w-[80vw] lg:ml-[15rem] ">
+            <motion.ul initial={"offscreen"} whileInView={"onscreen"} viewport={{once:false, amount:0.7}} transition={{staggerChildren:0.5}} variants={elmAnimate} className="text-2xl  w-[80vw] lg:ml-[15rem] ">
             <div className="lg:px-10  ">
                   <li className="mt-10 text-lg flex justify-between items-center border-t border-b py-5 border-[#171715]">
                     <span className="font-medium  lg:text-4xl text-[#171715]">Custom Web Interfaces</span>
@@ -81,11 +88,11 @@ export default function HomeAbout() {
                   </div>
                 </div>
 
-                </ul>
+                </motion.ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

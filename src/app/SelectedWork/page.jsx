@@ -13,7 +13,7 @@ export default function SelectedWork() {
         <h1>2024</h1>
       </div>
       <div  className="box  flex  justify-center gap-5 px-10  flex-wrap lg:flex-nowrap">
-  <div className="h-[35rem] w-full   shadow-2xl  lg:w-[30rem] rounded-3xl overflow-hidden  lg:hover:w-[40rem] transition-all duration-1000 ease-in-out">
+  <div className="h-[35rem] w-full  shadow-xl shadow-black-10   lg:w-[30rem] rounded-3xl overflow-hidden  lg:hover:w-[40rem] transition-all duration-1000 ease-in-out">
   {/* <h1 className="absolute text-white mt-[70vh] text-xl ml-10">The art century</h1> */}
      <Image className="h-[100%] object-cover w-[100%]" src={SelectedProject.image1}  alt="mockup1" >
 

@@ -22,6 +22,7 @@ export const FooterItem = [
     { item: "LIN", href: "https://www.linkedin.com/in/krish-216117229/" },
     { item: "INSTA", href: " " },
     { item: "copyright © 2024 Krish", href: " " },
+    // { item: "Designed and Developed by Krish", href: "" }
 ];
 export const skillsPara = {
     para1: "I then bring your online vision to life with coding or CMS, depending on your needs."
