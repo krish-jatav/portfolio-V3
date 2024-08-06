@@ -22,7 +22,7 @@ export default function Noise() {
             >
               <feTurbulence
                 type="fractalNoise"
-                baseFrequency="20"
+                baseFrequency="1.5"
                 numOctaves="4"
                 seed="25"
                 stitchTiles="stitch"
